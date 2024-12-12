@@ -1,6 +1,6 @@
-nome = "Kelvin"
-altura = 1.71
-peso = 94.5
+nome = input("Digite seu nome: ")
+altura = float(input("Digite sua altura em metros: "))
+peso = float(input("Digite seu peso em kg: "))
 
 imc = peso/(altura**2)
 
